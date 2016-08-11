@@ -1,0 +1,14 @@
+<meta property="fb:app_id"
+      content="1680709238846747">
+<meta property="og:type"
+      content="article"/>
+<meta property="og:site_name"
+      content="Festival #AmbisiKu"/>
+<meta property="og:url"
+      content="<?php echo current_url() ?>"/>
+<meta property="og:image"
+      content="<?php echo isset($og['image']) ? $og['image']:getOgImage()?>"/>
+<meta property="og:description"
+      content="<?php echo isset($og['description']) ? $og['description']:getOgDescription()?>"/>
+<meta property="og:title"
+      content="<?php echo isset($og['title']) ? $og['title']:getOgTitle()?>"/>

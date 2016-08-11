@@ -1,0 +1,10 @@
+<meta name="twitter:card"
+      content="summary">
+<meta name="twitter:site"
+      content="@triindonesia">
+<meta name="twitter:image"
+      content="<?php echo isset($og['image']) ? $og['image']:getOgImage() ?>"/>
+<meta name="twitter:description"
+      content="<?php echo isset($og['description']) ? $og['description']:getOgDescription() ?>"/>
+<meta name="twitter:title"
+      content="<?php echo isset($og['title']) ? $og['title']:getOgTitle() ?>"/>
